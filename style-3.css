@@ -1,0 +1,168 @@
+li {
+  float: left;
+  margin-top: 25px;
+  margin-left: 45%;
+  width: 200px;
+}
+.navbar-center {
+  margin-left: 850px;
+  display: flex;
+  height: 70px;
+}
+header {
+    margin-top: -1%;
+    display: flex;
+    margin-left: -1%;
+    margin-right: -5%;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+}
+.logo{
+  width: 270px;
+  height: 60px;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+
+.active {
+  background-color:  rgb(190, 166, 124);
+}
+body{
+  background-color: #080808;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.bonjour{
+  color:  rgb(190, 166, 124);
+  margin-left: 50%;
+  margin-top:50px;
+  text-decoration: none;
+  font-family: "Montserrat ExtraBold", sans-serif;
+  font-size: 15pt;  
+  cursor: pointer;
+  font-weight: 900 ;
+ 
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -7%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+
+}
+
+#customers tr{background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:  rgb(190, 166, 124);
+  color: white;
+  
+}
+.titre{
+  color: rgb(190, 166, 124); 
+  font-family: "Montserrat ExtraBold", sans-serif;
+  font-size: 50pt;
+  background-size: cover;
+  display: flex;
+  font-weight: 400;
+  margin-top: 15%;
+
+ }
+ header{
+  margin-top: -1%;
+  background-image: url("header.jpg");
+  background-repeat: no-repeat;
+  max-height: 100%;
+  display: flex;
+  margin-left: -1%;
+  margin-right: -5%;
+  width: 100%;
+  height: 650px;
+  max-height: 100%;
+
+}
+/*********************************************/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+ 
+}
+
+/* The Close Button */
+.close {
+  color:white;
+  float: right;
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: -5%;
+}
+.close1 {
+  color:white;
+  float: right;
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: -5%;
+  cursor: pointer;
+}
+.close2 {
+  color:white;
+  float: right;
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: -5%;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contact-modal{
+  color:  rgb(190, 166, 124);
+  font-size: 30px;
+  text-align: center;
+}
+/********************************/
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+

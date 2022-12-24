@@ -1,0 +1,90 @@
+.logo{
+    width: 176px;
+    margin-top: 10px;
+    margin-left: 280px;
+  }
+  li {
+    float: left;
+    margin-top:40px;
+    margin-left: 45%;
+    
+  }
+  header{
+    background-color: rgb(190, 166, 124);
+    display: flex;
+    width: 100%;
+  }
+  section{
+    background-color: #080808;
+  }
+  
+  li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat ExtraBold", sans-serif;
+    font-size: 20pt;  
+    cursor: pointer;
+    font-weight: 900px;
+  }
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 200px;
+    
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  
+  }
+  
+  #customers tr{background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffba00;
+    color: white;
+    
+  }
+  .titre{
+    color: rgb(190, 166, 124); 
+    font-family: "Montserrat ExtraBold", sans-serif;
+    font-size: 50pt;
+    background-size: cover;
+    display: flex;
+    font-weight: 400;
+    margin-top: 10%;
+  
+   }
+  
+  /********************************/
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
